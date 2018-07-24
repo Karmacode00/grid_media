@@ -1,0 +1,53 @@
+.container {
+  height: 300px;
+}
+
+img{
+  width: 100%;
+}
+
+.titulo {
+  text-align: center;
+  padding: 3%;
+  font-family: 'Indie Flower', cursive;
+}
+
+p {
+  font-family: 'Anton', sans-serif;
+}
+
+.primera_seccion {
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 424px) {
+  [class*="col-"]{
+    width: 100%;
+    text-align: center;
+  }
+
+  .gatito {
+    content: url("../../img/75552.jpg");
+  }
+
+  body {
+    background-color: darkorchid;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  [class*="col-"]{
+    width: 100%;
+    text-align: center;
+  }
+
+  .gatito {
+    content: url("../../img/feline.jpg");
+  }
+
+  body {
+    background-color: grey;
+  } 
+}
